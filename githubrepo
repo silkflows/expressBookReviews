@@ -1,3 +1,5 @@
-curl -s https://api.github.com/repos/silkflows/expressBookReviews | jq '.parent.full_name'
-
-"ibm-developer-skills-network/expressBookReviews"
+{
+  echo "curl -s https://api.github.com/repos/silkflows/expressBookReviews | jq '.parent.full_name'"
+  echo
+  curl -s https://api.github.com/repos/silkflows/expressBookReviews | jq '.parent.full_name'
+} > githubrepo
