@@ -1,5 +1,1 @@
-{
-  echo 'curl -s http://localhost:5000/isbn/1'
-  echo
-  curl -s http://localhost:5000/isbn/1 | jq .
-} > getbooksbyISBN
+curl -s http://localhost:5000/isbn/<ISBN> | jq .
