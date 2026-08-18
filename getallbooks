@@ -1,0 +1,5 @@
+{
+  echo 'curl -s http://localhost:5000/customer/'
+  echo
+  curl -s http://localhost:5000/ | jq .
+} > getallbooks
