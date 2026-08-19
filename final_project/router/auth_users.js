@@ -69,7 +69,7 @@ regd_users.put("/auth/review/:isbn", (req, res) => {
   };
   book.reviews[reviewData.id] = reviewData;
 
-  return res.status(200).json(book);
+  return res.status(200).json({message:"review created successfully"});
 });
 
 // delete review

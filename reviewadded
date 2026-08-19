@@ -1,3 +1,8 @@
-curl -X PUT http://localhost:5000/customer/auth/review/<ISBN> \
+curl -X PUT http://localhost:5000/customer/auth/review/2 \
 -H "Content-Type: application/json" \
 -d '{"review":"This is a great book"}'
+
+
+{
+  "message": "review created successfully"
+}

@@ -1,8 +1,6 @@
-curl -s http://localhost:5000/ | jq .
-
-{
+const books = {
   "1": {
-    "author": "Hans Christian Andersen",
+       "author": "Hans Christian Andersen",
     "title": "Fairy tales",
     "reviews": {
       "2720109": {
@@ -10,9 +8,10 @@ curl -s http://localhost:5000/ | jq .
         "content": "this books is great!"
       }
     }
+   
   },
   "2": {
-    "author": "Chinua Achebe",
+       "author": "Chinua Achebe",
     "title": "Things Fall Apart",
     "reviews": {
       "2720109": {
@@ -20,6 +19,7 @@ curl -s http://localhost:5000/ | jq .
         "content": "this books is great!"
       }
     }
+   
   },
   "3": {
     "author": "Dante Alighieri",
@@ -102,3 +102,5 @@ curl -s http://localhost:5000/ | jq .
     }
   }
 }
+module.exports=books;
+

@@ -1,1 +1,13 @@
-curl -s http://localhost:5000/review/<ISBN> | jq .
+curl -s http://localhost:5000/review/1 | jq .
+
+{
+  "author": "Hans Christian Andersen",
+  "title": "Fairy tales",
+  "reviews": {
+    "2720109": {
+      "id": 2720109,
+      "content": "this books is great!"
+    }
+  }
+}
+

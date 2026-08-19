@@ -1,1 +1,15 @@
-curl -s "http://localhost:5000/books/author/AUTHOR"
+curl -s "http://localhost:5000/author/Samuel Beckett"
+
+
+{
+  "10": {
+    "author": "Samuel Beckett",
+    "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
+    "reviews": {
+      "2720109": {
+        "id": 2720109,
+        "content": "this books is great!"
+      }
+    }
+  }
+}

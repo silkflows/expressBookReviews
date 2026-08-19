@@ -178,7 +178,7 @@ public_users.get("/review/:isbn", async function (req, res) {
       return;
     }
 
-    resolve(book.reviews);
+    resolve(book);
   });
 
   try {

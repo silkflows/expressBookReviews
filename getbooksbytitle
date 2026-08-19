@@ -1,1 +1,14 @@
-curl -s "http://localhost:5000/title/<TITLE>" | jq .
+curl -s "http://localhost:5000/title/The Epic Of Gilgamesh" | jq .
+
+ {
+  "4": {
+    "author": "Unknown",
+    "title": "The Epic Of Gilgamesh",
+    "reviews": {
+      "2720109": {
+        "id": 2720109,
+        "content": "this books is great!"
+      }
+    }
+  }
+}
